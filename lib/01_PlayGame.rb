@@ -3,9 +3,9 @@ require_relative '03_Methods'
 require_relative '04_Player'
 
 module PlayGame
+  include StaticDisplays
+  include Methods
   def play_mastermind()
-    include StaticDisplays
-    include Methods
     # ~Title
     display_seperation_bar()                              #Titles.rb
     display_game_title()                                  #Titles.rb
