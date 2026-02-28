@@ -1,3 +1,3 @@
-require_relative "lib/Play"
-
-play_game()
+require_relative "lib/01_PlayGame"
+include PlayGame
+play_mastermind()
